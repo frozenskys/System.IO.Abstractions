@@ -1,5 +1,9 @@
 version: 2.0.0.{build}
 
+# Use 2017 Image :)
+image:
+- Visual Studio 2017 RC
+
 pull_requests:
   do_not_increment_build_number: true
 
